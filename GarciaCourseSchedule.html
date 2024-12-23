@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .schedule-table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #ffe6e6;
+        }
+
+        .schedule-table th, 
+        .schedule-table td {
+            border: 1px solid #ff9999; 
+            padding: 8px;
+            text-align: center;
+        }
+
+        .schedule-table th {
+            background-color: #ffcccc;
+            color: #333;
+        }
+
+        .schedule-table caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+            text-align: left;
+            padding: 10px;
+            background-color: #ffcccc;
+        }
+
+        .time-column {
+            background-color: #ffcccc;
+        }
+
+        .schedule-table tr:nth-child(even) td {
+            background-color: #fff0f0;
+        }
+    </style>
+</head>
+<body>
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7:00 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8:15 AM</td>
+                <td class="cs107" rowspan="2">
+                    <div class="course-code">CS107</div>
+                    <div class="course-name">Information Management</div>
+                    <div class="room">R411</div>
+                </td>
+                <td></td>
+                <td class="it103" rowspan="2">
+                    <div class="course-code">IT103</div>
+                    <div class="course-name">Web Programming</div>
+                    <div class="room">R406</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9:30 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10:45 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td class="cs122" rowspan="2">
+                    <div class="course-code">CS122</div>
+                    <div class="course-name">Automata and Language Theory</div>
+                    <div class="room">R414</div>
+                </td>
+                <td></td>
+                <td class="cs124" rowspan="2">
+                    <div class="course-code">CS124</div>
+                    <div class="course-name">Algorithms and Complexity</div>
+                    <div class="room">R307</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1:15 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2:30 PM</td>
+                <td class="it103l" rowspan="2">
+                    <div class="course-code">IT103L</div>
+                    <div class="course-name">Web Programming (Lab)</div>
+                    <div class="room">R601</div>
+                </td>
+                <td rowspan="3" class="cs107l">
+                    <div class="course-code">CS107L</div>
+                    <div class="course-name">Information Management (Lab)</div>
+                    <div class="room">R602</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3:45 PM</td>
+                <td class="hum039">
+                    <div class="course-code">HUM039</div>
+                    <div class="course-name">Ethics</div>
+                    <div class="room">U416</div>
+                </td>
+                <td></td>
+                <td class="hum039">
+                    <div class="course-code">HUM039</div>
+                    <div class="course-name">Ethics</div>
+                    <div class="room">U416</div>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5:00 PM</td>
+                <td class="it103l">
+                    <div class="course-code">IT103L</div>
+                    <div class="course-name">Web Programming (Lab)</div>
+                    <div class="room">R601</div>
+                </td>
+                <td class="ss086">
+                    <div class="course-code">SS086</div>
+                    <div class="course-name">Gender and Society</div>
+                    <div class="room">U406</div>
+                </td>
+                <td></td>
+                <td class="ss086">
+                    <div class="course-code">SS086</div>
+                    <div class="course-name">Gender and Society</div>
+                    <div class="room">U406</div>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6:15 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7:30 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8:45 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
